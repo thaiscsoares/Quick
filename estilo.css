@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: lightgray;
+    position: fixed;
+    margin-top: 0;
+    padding: 10px 0;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+}
+
+#casos{
+    display: flex;
+    align-items: center;
+}
+
+#casos div{
+    width: 50vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#intro, #pivo, #exemplo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#exemplo p{
+    font-style: bold;
+    font-size: 25pt;
+    margin: 0;
+}
+
+p{
+    font-family: 'Comfortaa', cursive;
+}
+
+h1, h2{
+    font-family: 'Comfortaa', cursive;
+}
